@@ -16,7 +16,7 @@ conditions in 2020 and 2021. Some crops such as flax, however, have only seen a 
 * The Midwest states hit hardest by extreme drought conditions have been the west part of the region, in North Dakota and South Dakota.
 
 ## About the Data
-Drought Monitor and crop production data from the County Agriculture Production Survey (CAPS) from the National Agriculture Statistics Service (NASS).
+This project combined drought data from the U.S. Drought Monitor and crop production data from the County Agriculture Production Survey (CAPS) from the National Agriculture Statistics Service (NASS).
 ### Drought Data
 * Drought levels: Acres of dry to moderate drought & severe to exceptional drought
 * Years, took one fall drought monitor recording each year
