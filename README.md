@@ -17,12 +17,12 @@ conditions in 2020 and 2021. Some crops such as flax, however, have only seen a 
 
 ## About the Data
 Drought Monitor and crop production data from the County Agriculture Production Survey (CAPS) from the National Agriculture Statistics Service (NASS).
-**Drought Data**
+### Drought Data
 * Drought levels: Acres of dry to moderate drought & severe to exceptional drought
 * Years, took one fall drought monitor recording each year
 * State
 * County
-**Crop Data**
+### Crop Data
 * Year
 * State
 * County
@@ -30,17 +30,24 @@ Drought Monitor and crop production data from the County Agriculture Production 
 * Total units produced (unit depends on crop)
 
 ## Data Cleaning
-**Drought Data**
+### Drought Data
 * Kept data from one testing time, in the fall
 * Combined state and country FIP numbers from both datasets to create state and county IDs
 * Combined lesser and greater drought levels, reduced from 6+ levels to 3: none, dry to moderate, and severe to exceptional
 * Deleted unmatched counties between the two datasets
-**Crop Data**
+### Crop Data
 * Combined state and country FIP numbers from both datasets to create state and county IDs
 * Deleted unnecessary columns
 * Kept only two most relevant production measures
 * Significant cleaning in crop product measures and units
 * Deleted unmatched counties between the two datasets
+
+## Data Analysis
+* In the first chart, the acres of various drought levels and crop product in total units were displayed together with slicers
+  that filter by state, county, and commodity/crop.
+* In the second chart, the total crop production and crop production per acre per commodity is shown in a table with slicers
+  that filter by state (which shows all the data for all the counties in the selected state) and year.
+ * The third and final chart shows the states with the largest percentage of total land area labeled as severe drought conditions.
 
 ## Please Note
 For the first report tab, make sure you select a commodity, as that will ensure units displayed are the same, such as bu for corn, tons for hay, 
