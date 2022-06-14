@@ -9,16 +9,38 @@ as much as I enjoyed creating it.
 See the report here:
 https://lnkd.in/gCt4UiGW
 
-About the Data
-Drought Monitor and crop production data from the County Agriculture Production Survey (CAPS) from the National Agriculture Statistics Service (NASS).
-** Drought Date **
-
-
-## Key Highlights:
+##Key Highlights:
 * Most crops, especially corn, have seen a decrease in production throughout dry to moderate conditions and severe to exceptional drought 
 conditions in 2020 and 2021. Some crops such as flax, however, have only seen a significant decrease during extreme drought conditions but not during dry to moderate drought conditions.
 * Cotton has done exceptionally well in dry and moderate drought conditions, as well as winter wheat.
 * The Midwest states hit hardest by extreme drought conditions have been the west part of the region, in North Dakota and South Dakota.
+
+##About the Data
+Drought Monitor and crop production data from the County Agriculture Production Survey (CAPS) from the National Agriculture Statistics Service (NASS).
+**Drought Data**
+* Drought levels: Acres of dry to moderate drought & severe to exceptional drought
+* Years, took one fall drought monitor recording each year
+* State
+* County
+**Crop Data**
+* Year
+* State
+* County
+* Crop product per acre, such a bu/acre (unit depends on crop)
+* Total units produced (unit depends on crop)
+
+##Data Cleaning
+**Drought Data**
+* Kept data from one testing time, in the fall
+* Combined state and country FIP numbers from both datasets to create state and county IDs
+* Combined lesser and greater drought levels, reduced from 6+ levels to 3: none, dry to moderate, and severe to exceptional
+* Deleted unmatched counties between the two datasets
+**Crop Data**
+* Combined state and country FIP numbers from both datasets to create state and county IDs
+* Deleted unnecessary columns
+* Kept only two most relevant production measures
+* Significant cleaning in crop product measures and units
+* Deleted unmatched counties between the two datasets
 
 ## Please Note
 For the first report tab, make sure you select a commodity, as that will ensure units displayed are the same, such as bu for corn, tons for hay, 
