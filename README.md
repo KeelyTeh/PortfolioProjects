@@ -31,7 +31,7 @@ This project combined drought data from the U.S. Drought Monitor and crop produc
 
 ## Data Cleaning
 ### Drought Data
-* Kept data from one testing time, in the fall
+* Kept data from one annual testing time, in the fall, to match timing of collecting crop data
 * Combined state and country FIP numbers from both datasets to create state and county IDs
 * Combined lesser and greater drought levels, reduced from 6+ levels to 3: none, dry to moderate, and severe to exceptional
 * Deleted unmatched counties between the two datasets
