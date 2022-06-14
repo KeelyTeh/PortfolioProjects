@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@KeelyTeh 
-KeelyTeh
-/
-PortfolioProjects
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-PortfolioProjects/drought_crops.readme
-@KeelyTeh
-KeelyTeh Create drought_crops.readme
-Latest commit ea55caf 24 seconds ago
- History
- 1 contributor
-27 lines (21 sloc)  1.84 KB
-
-
 # Drought & Crops in Power BI
 I have created a report in MS PowerBI focusing on the drought conditions and crop production for common commodities grown in the 
 Midwest region of the United States. Years included are 2018 through 2021. The current year, 2022, was not included 
@@ -55,16 +25,4 @@ For the first report tab, make sure you select a commodity, as that will ensure 
 and so on. If you only select commodity, it will show drought and crop information for the whole Midwest for your selected commodity; commodity 
 and state will show drought and commodity information for just that one state you select; while commodity, state, and county will focus on 
 drought and crop production for your commodity in your chosen state and county.
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
+
