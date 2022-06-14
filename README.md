@@ -8,7 +8,7 @@
 
 ## Automated Tables in Database
 This section showcases my ability to automate the database. I added the following features.
-* Various foreign key constaints were added, such as cascade on delete in the ordereditems table, so items from the orderitems table were deleted when the order from the orders table canceled or delted. There are various other FK constaints on other tables to automate the database.
+* Various foreign key constaints were added, such as cascade on delete in the ordereditems table, so when an order was canceled, the corresponding orderitems table records were delted. The following bullet discussed how after this action, a trigger then updates available quantity in the products table. There are various other FK constaints on other tables to automate the database. 
 * There are several triggers as mentioned above to update order quantities when an order was made or canceled and warning messages about available quantities in the product table when the ordereditems table indicated an order below MOQ or above current available quantity. 
 
 ## Other Queries
