@@ -6,7 +6,7 @@ because crop production data for each year does not become available until the f
 This project combined my interest and experience in food and agriculture with my passion for data analytics. I hope you enjoy reviewing the report 
 as much as I enjoyed creating it.
 
-See the report here:
+See the data and report by opening the pbix file above or view the report only by going to the link below:
 https://lnkd.in/gCt4UiGW
 
 ## Key Highlights:
