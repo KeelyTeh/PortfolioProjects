@@ -27,20 +27,20 @@ This project combined drought data from the U.S. Drought Monitor and crop produc
 * Year
 * State
 * County
-* Crop product per acre, such a bu/acre (unit depends on crop)
+* Crop production per acre, such a bu/acre (unit depends on crop)
 * Total units produced (unit depends on crop)
 
 ## Data Cleaning
 ### Drought Data
 * Kept data from one annual testing time, in the fall, to match timing of collecting crop data
 * Combined state and country FIP numbers from both datasets to create state and county IDs
-* Combined lesser and greater drought levels, reduced from 6+ levels to 3: none, dry to moderate, and severe to exceptional
+* Combined 2-3 drought levels to reduced number of levels from 6+ levels to 3: none, dry to moderate, and severe to exceptional
 * Deleted unmatched counties between the two datasets
 ### Crop Data
 * Combined state and country FIP numbers from both datasets to create state and county IDs
 * Deleted unnecessary columns
 * Kept only two most relevant production measures
-* Significant cleaning in crop product measures and units
+* Significant cleaning in crop production measures and units
 * Deleted unmatched counties between the two datasets
 
 ## Data Analysis
