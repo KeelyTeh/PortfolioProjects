@@ -1,4 +1,4 @@
-# Sales Insights for Apliq, an Indian Computer Hardware and Peripheral Manufacturer
+# Sales Insights for Apliq, a Computer Hardware Manufacturer
 I have created a report in MS PowerBI that delves into the declining sales of Apliq, a computer hardware and peripheral manufacturer. I used a MySQL datatbase and Power BI for this project.
 
 ### View the Report
