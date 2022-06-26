@@ -19,7 +19,6 @@ See the data and report by opening the pbix file above or view the report only b
 This project included multiple tables from Apliq's SQL database, including sales transactions, products, customers, markets, and a date table. This included all transactions from 2017 to 2020, around 150,000 records.
 
 ## Data Cleaning
-### Drought Data
 * Deleted records with negative tranaction values.
 * Converted two records from USD or Indian INR currency. A currency conversion table could be used in Power BI, but we chose a simple conversion formula
   to convert USD to current INR values.
