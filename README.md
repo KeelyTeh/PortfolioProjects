@@ -45,7 +45,6 @@ This project included multiple tables from Apliq's SQL database, including sales
   wanted the profit target applied. Here, a rule was set to show all categories in red that had a profit margin with a specified amount below the set profit 
   target. This allowed the steakholder to directly address business segements or regions that are falling short of profit targets.
   
-  ![DataColorsFormula](https://github.com/KeelyTeh/PortfolioProjects/blob/SalesInsightsApliq/Profit%20Diff%20Formula.png)
   
   ![ProfitTargetRedBars](https://github.com/KeelyTeh/PortfolioProjects/blob/SalesInsightsApliq/Red%20bars.png)
   
