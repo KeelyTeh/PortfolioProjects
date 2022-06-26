@@ -39,11 +39,11 @@ This project included multiple tables from Apliq's SQL database, including sales
   displayed on this page. Revenue can also be seen over the time period of choice using the year and month slicers.
 * Profit Analysis, the second tab, shows a side-by-side comparison of various revenue and profit parameters by market or over time. A customer chart can 
   with all the paramters can be viewed and sorted by highest and lowest parameters.
-* The third and final chart has a **useful tool**  that allows the steakholder to set a profit target with the slicer, and then drill down the hierarchy by  
-  by zones, markets, customers, and products that do not meet a profit target. Those that fall below the profit target have red bars. This was created by
-  creating a slicer with the new parameter tool in the modeling tab. Then, we set up a formula by rules in the data colors menu for the left chart where we 
-  wanted the profit target applied. Here, a rule was set to show all categories in red that had a profit margin with a specified amount below the set profit 
-  target. This allowed the steakholder to directly address business segements or regions that are falling short of profit targets.
+* The third and final chart has a **useful tool**  that allows the steakholder to set a profit target with the slicer, and then drill down the hierarchy  
+by zones, markets, customers, and products that do not meet a profit target. Those that fall below the profit target have red bars. This was created by
+creating a slicer with the new parameter tool in the modeling tab. Then, we created a new measure or formula (that substracts the profit target % from the  current profit margin) then connects this formula using using the formula button in the data colors menu for the left chart where we 
+wanted the profit target applied. Here, a rule was set to show all categories in red that had a profit margin with a specified amount below the set profit 
+target. This allowed the steakholder to directly address business segements or regions that are falling short of profit targets.
   
   
   ![ProfitTargetRedBars](https://github.com/KeelyTeh/PortfolioProjects/blob/SalesInsightsApliq/Red%20bars.png)
