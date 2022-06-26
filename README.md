@@ -10,8 +10,8 @@ See the data and report by opening the pbix file above or view the report only b
   large metro areas such as Delhi, Mumbai, and Ahmedabad are often bringing in a lot of revenue, but this is likely because of high sales volumes. 
   To make them more of a success, strategies used in stores and regions with high profit margins, like Bhubaneshar, Hyderabad, and Chennai could be 
   explored and immplemented in Delhi, Mumbai, and Ahmedabad.
-* Revenue had trended downward since 2018 while profit margin % for Apliq had decreased since since 2019. Because of this, markets, stores, and products
-  bringing in lower revenue, having higher operatings costs, or unsuccessful management strategies should be explored and mitigated.
+* Revenue had trended downward since 2018 while profit margin % for Apliq had decreased since 2019. Because of this, markets, stores, and products
+  bringing in lower revenue, having higher operating costs, or unsuccessful management strategies should be explored and mitigated.
 * On the third tab, Performance Insights, a filter was set up to set a specific profit margin target. This allows steakholders to view what markets, stores,
   customers, and products are not as profitable as hoped. The same can also be set up for other parameters such as profit contribution percentage.
 
