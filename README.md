@@ -44,5 +44,7 @@ This project included multiple tables from Apliq's SQL database, including sales
   
   ![ProfitTargetRedBars](https://github.com/KeelyTeh/PortfolioProjects/blob/SalesInsightsApliq/Red%20bars.png)
   
+  ![ConnectingFormulatoChart](https://github.com/KeelyTeh/PortfolioProjects/blob/SalesInsightsApliq/Profit%20Diff%20Formula.png)
+  
   
 
