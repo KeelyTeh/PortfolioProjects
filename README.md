@@ -4,7 +4,7 @@ In this project, I explored covid data from ourworldindata.org from the beginnin
 You can view the visualizations here: https://public.tableau.com/app/profile/keely7601/viz/CovidAnalysisThroughSeptember2022/Deaths#1
 
 ## SQL File
-The SQL file for this project includes queries for the Tableau visualizations discussed below but also includes other analysis within SQL. Some examples include select statemments, temp tables, CTEs, views, and more. Feel free to browse this document to get a better idea of my capabilities in SQL.
+The SQL file for this project includes queries for the Tableau visualizations discussed below but also includes other analysis within SQL. Some examples include select statements, temp tables, CTEs, views, and more. Feel free to browse this document to get a better idea of my capabilities in SQL.
 
 ## Deaths Dashboard
 In this dashboard, there are four charts. Here are the corresponding SQL queries and visualizations. 
