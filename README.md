@@ -6,7 +6,7 @@ The SQL file for this project includes queries for the Tableau visualizations di
 
 You can view the visualizations here: https://public.tableau.com/app/profile/keely7601/viz/CovidAnalysisThroughSeptember2022/Deaths#1
 
-### Deaths Dashboard
+## Deaths Dashboard
 In this dashboard, there are four charts. Here are the corresponding SQL queries and visualizations. 
 ### 1. Global Death Rates
 * SQL QUERY
@@ -55,7 +55,7 @@ ORDER BY 4 DESC;
 I text chart was made in Tableau with death_percentage calculated in SQL above, along with location. Location was sorted in descending order by max death_percentage and included the top 10 countries. 
 
 This analysis differed somewhat from the previous. For example, this data might reveal issues is late diagnoses or those seeking treatment when they are severely ill, or a number of other issues. This EDA is a good starting point in what regions to dig deeper into medical responses to Covid-19.
-### Infections Dashboard
+## Infections Dashboard
 In this dashboard, there are two charts. Here are the corresponding SQL queries and visualizations. 
 ### 1. National Covid Death Rates
 * SQL QUERY
