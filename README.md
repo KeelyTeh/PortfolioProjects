@@ -5,8 +5,8 @@ You can view the visualizations here: https://public.tableau.com/app/profile/kee
 
 ### Deaths Dashboard
 In this dashboard, there are four charts. Here are the corresponding SQL queries and visualizations. 
-##### Global Death Rates
-**SQL QUERY**
+* Global Death Rates
+#### SQL QUERY
 SELECT MAX(total_cases) AS total_cases, MAX(total_deaths) AS total_deaths, MAX(total_deaths)/MAX(total_cases)*100 AS death_percentage
 FROM covid_deaths
 ORDER BY 1,2;
