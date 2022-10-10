@@ -1,10 +1,10 @@
 # Covid Insights 
 In this project, I explored covid data from ourworldindata.org. The data focused on deaths, infections, vaccinations, as well as other data. My exploratory data analysis was done in MySQL and visualized in Tableau. In the following descriptions, I explain the SQL queries and tableau settings for each tableau chart. This data helped identify possible geographical areas where a more targeted response to covid could be implemented and identified potential areas in need of further explanation and analysis.
 
+You can view the visualizations here: https://public.tableau.com/app/profile/keely7601/viz/CovidAnalysisThroughSeptember2022/Deaths#1
+
 ## SQL File
 The SQL file for this project includes queries for the Tableau visualizations discussed below but also includes other analysis within SQL. Some examples include select statemments, temp tables, CTEs, views, and more. Feel free to browse this document to get a better idea of my capabilities in SQL.
-
-You can view the visualizations here: https://public.tableau.com/app/profile/keely7601/viz/CovidAnalysisThroughSeptember2022/Deaths#1
 
 ## Deaths Dashboard
 In this dashboard, there are four charts. Here are the corresponding SQL queries and visualizations. 
