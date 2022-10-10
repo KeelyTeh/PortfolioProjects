@@ -64,7 +64,8 @@ FROM covid_deaths
 GROUP BY location, population, record_date
 ORDER BY infection_rate DESC;
 
-This is a good way to view infection rates across the world. To create this interactive map, we first go to location in Tableau and click on the down arrow. Choose geographic role, then select country/region. This enables longitude/latitude coordiates to show up in the left pane. I then put longitude in columns and latitude in rows. I then put location in the marks pane, and percent population infected just under location in the marks pane as well. Then we choose color to the left side of percent population infected to give color to our land mass. To color the ocean, we choose Background Maps from the Maps menu and choose Outdoors.
+* Tableau Chart Explained
+This is a good way to view infection rates across the world. To create this interactive map, we first go to location in Tableau and click on the down arrow. Choose geographic role, then select country/region. This enables longitude/latitude coordiates to show up in the left pane. I then put longitude in columns and latitude in rows. I then put location in the marks pane, and infection rate just under location in the marks pane as well. Then we choose color to the left side of infection rate to give color to our land mass. To color the ocean, we choose Background Maps from the Maps menu and choose Outdoors.
 
 ### 2. Cumulative Infection Rate
 * SQL QUERY
@@ -73,3 +74,29 @@ FROM covid_deaths
 GROUP BY location, population, record_date
 ORDER BY infection_rate DESC;
 
+* Tableau Chart Explained
+Here, I put Month/Year in the columns and infection rate in rows. Finally, I put location in the marks pane and filtered by six countries or territories. Then we went to the Analysis tab and chose show forecast. 
+
+What I find the most interesting here is that verified infections rates at the end of September 2022 are greater in the UK, but the US is expected to surpass the UK by the same time next year in 2023. Will this happen? Only time will tell. 
+
+## Vaccinations Dashboard
+In this dashboard, there are three charts. Here are the corresponding SQL queries and visualizations. 
+### 1. & 2. Population Percentage Fully Vaccinated and Population Percentage Vaccinated by Country Over Time
+* SQL QUERY
+SELECT continent, location, record_date, people_vaccinated_per_hundred, people_fully_vaccinated_per_hundred
+FROM covid_vaccinations
+GROUP BY location, record_date
+ORDER BY 2,3;
+
+* Tableau Chart Explained
+These charts show the percent of the population that received any vaccinations (at least one dose) as well as those who were fully vaccinated in six countries over time. Obviously, the partially vaccinated outnumbered the fully vaccinated, but it very greater among countries. This data could spark the invesigation of the reasons behind the lack of full vaccinations in the US in Mexico comparied to other countries. 
+
+### 3. Vaccination Statistics by Country
+* SQL QUERY
+SELECT continent, location, record_date, people_vaccinated_per_hundred, people_fully_vaccinated_per_hundred
+FROM covid_vaccinations
+GROUP BY location, record_date
+ORDER BY 2,3;
+
+* Tableau Chart Explained
+This text chart is a sightly different way of looking at the previous two charts. However, this show final vaccinations rates at the end of September and not over time like the first two charts. Here, you can easily see the high vaccination rates in China and the larger number of vaccinated people in the US and Mexico not being fully vaccinated. 
