@@ -89,7 +89,7 @@ GROUP BY location, record_date
 ORDER BY 2,3;
 
 * Tableau Chart Explained - 
-These charts show the percent of the population that received any vaccinations (at least one dose) as well as those who were fully vaccinated in six countries over time. Obviously, the partially vaccinated outnumbered the fully vaccinated, but it very greater among countries. This data could spark the invesigation of the reasons behind the lack of full vaccinations in the US in Mexico comparied to other countries. 
+These charts show the percent of the population that received any vaccinations (at least one dose) as well as those who were fully vaccinated in six countries over time. Obviously, the partially vaccinated outnumbered the fully vaccinated, but it very greater among countries. This data could spark the investigation of the reasons behind the lack of full vaccinations in the US and Mexico comparied to other countries. 
 
 ### 3. Vaccination Statistics by Country
 * SQL QUERY - 
@@ -99,4 +99,4 @@ GROUP BY location, record_date
 ORDER BY 2,3;
 
 * Tableau Chart Explained -
-This text chart is a sightly different way of looking at the previous two charts. However, this show final vaccinations rates at the end of September and not over time like the first two charts. Here, you can easily see the high vaccination rates in China and the larger number of vaccinated people in the US and Mexico not being fully vaccinated. 
+This text chart is a sightly different way of looking at the previous two charts. However, this show final vaccinations rates at the end of September 2022 and not over time like the first two charts. Here, you can easily see the high vaccination rates in China and the larger number of vaccinated people in the US and Mexico not being fully vaccinated. 
