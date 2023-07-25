@@ -2,7 +2,7 @@ use healthysnacks;
 
 Drop trigger if exists healthysnacks.update_quantity;
 
-/* This trigger updates the AvailableQuantity in Products everytime an order is made via the update in the Quantity column
+/* This trigger updates the AvailableQuantity in Products every time an order is made via the update in the Quantity column
 in OrderedItems (via matching productid in Products and OrderedItems). */
 
 DELIMITER $$
